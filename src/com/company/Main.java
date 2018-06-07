@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	//my cat
 
-    Cat myCat = new Cat("Eden","Indy", 9, 'm',"Louisville",true,12.8);
+    Cat myCat = new Cat("Eden","Indy", 11, 'm',"Louisville",true,12.8);
 
     System.out.println("The name of my cat is: "+ myCat.getPetName());
 
@@ -15,6 +15,8 @@ public class Main {
     System.out.println(myCat.makeSound());
 
     System.out.println(myCat.catYears());
+
+    Snake mySnake = new Snake("Eden", "Charles", 2, 'f',"Louisville", 2, 15);
 
     }
 }
